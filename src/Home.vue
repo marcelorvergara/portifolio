@@ -25,6 +25,18 @@
             <router-link :to="{name: 'Clipping'}" custom v-slot="{ navigate }">
               <b-dropdown-item @click="navigate" role="link">Clippingz</b-dropdown-item>
             </router-link>
+            <b-dropdown-divider></b-dropdown-divider>
+            <router-link :to="{name: 'Memoria'}" custom v-slot="{ navigate }">
+              <b-dropdown-item @click="navigate" role="link">{{ $t('Navbar.memoria') }}</b-dropdown-item>
+            </router-link>
+            <b-dropdown-divider></b-dropdown-divider>
+            <router-link :to="{name: 'TicketSystem'}" custom v-slot="{ navigate }">
+              <b-dropdown-item @click="navigate" role="link">{{ $t('TelaTS.desc') }}</b-dropdown-item>
+            </router-link>
+            <b-dropdown-divider></b-dropdown-divider>
+            <router-link :to="{name: 'TicketSystemBO'}" custom v-slot="{ navigate }">
+              <b-dropdown-item @click="navigate" role="link">{{ $t('TelaTS.descBo') }}</b-dropdown-item>
+            </router-link>
           </b-nav-item-dropdown>
 
           <b-nav-item-dropdown :text="$t('Navbar.curriculo')">
@@ -77,7 +89,7 @@ export default {
 
 /deep/ .nav-item.nav-item.nav-item{
   font-size: 1.05em;
-  width: 130px;
+  width: 160px;
   padding: 4px;
 }
 
@@ -86,5 +98,6 @@ export default {
   background-color: #343A40;
   margin: -10px -9px -9px 0;
   padding: 6px;
+  width: 240px;
 }
 </style>

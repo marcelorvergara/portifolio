@@ -6,17 +6,12 @@ export default {
         "prj": "Projetos",
         "contatos": "Contatos",
         "curriculo": "Currículo",
-
-        "profile": "Profile",
-        "login": "Login",
-        "logout": "Logout",
-        "terms and conditions": "Terms and conditions",
-        "follow us": "Follow us"
+        "memoria": "Jogo da Memória"
     },
     "Carousel":{
         "github": "Códigos de projetos que trabalhei e que estou trabalhando no momento",
         "linkedin": "Minhas experiências, formação e recomendações",
-        "email": "me@marcelo-vergara.codes"
+        "email": "me@mvergara.net"
     },
     "Err":{
         "errorMsg": "Alguma coisa errada que não está certa"
@@ -53,6 +48,30 @@ export default {
         "exluirTit": "Excluir Notícias do Portal",
         "exluirDesc": "Há a possibilidade de excluir notícias no portal. Estando notícias diárias como as notícias que estão no histórico de notícias.",
         "exluirAlt": "Gif com demonstração de excluir de notícias"
+    },
+    "TelaMem": {
+      "desc": "Jogo da Memória",
+      "descricao": "Jogo feito em Python utilizando a biblioteca tkinter para representação visual dos elementos gráficos."
+    },
+    "TelaTS": {
+        "desc": "Sistema de Chamados (App)",
+        "descBo": "Sistema de Chamados (BO)",
+        "descBoSub": "Back office do sistema de chamados feito em Vue.js com Bootstrap. Criado para atender as solicitações criadas no app. Utilização de Vue Router, Vuex e Axios para consumo de Api REST.",
+        "titulo": "Sistema de Chamados para Empresa Farmacêutica",
+        "subtitulo": "App desenvolvido no Android Studio com consumo de Api REST, SQLite, Firebase Cloud Messaging e arquitetura MVVM",
+        "criaSolicitacaoTit": "Criação de Solicitação",
+        "criaSolicitacaoDesc": "Criação de duas solicitações ao mesmo tempo. Utilização de fragments para que o cliente tenha a possibilidade de criar mais de uma solicitação na mesma tela sem a necessidade de entrar e sair de diversas telas.",
+        "criaSolicitacaoAlt": "Criando solicitação",
+        "medicoSolicitanteTit": "Médico Solicitante",
+        "medicoSolicitanteDesc": "Cadastro de médicos e seleção de médicos favoritos para facilitar a criação de solicitações. Funcionalidade que usa SQLite para armazenamento local da lista de médicos favoritos.",
+        "medicoSolicitanteAlt": "Médicos solicitantes",
+        "utilizaModeloTit": "Utilização de Modelo",
+        "utilizaModeloDesc": "Criação de solicitação utilizando um modelo pré cadastrado pelos administradores no back office. Utilização de navegação entre fragmentos para otimizar e acelerar o processo de criação de solicitação.",
+        "utilizaModeloAlt": "Utilizando modelos",
+        "salvaEnviaTit": "Salvar e Enviar",
+        "salvaEnviaDesc": "Funcionalidade criada para que, no caso que não haja internet disponível, o cliente consiga salvar as solicitações localmente (SQLite) para envio posterior das mesmas.",
+        "salvaEnviaAlt": "Salvar e enviar",
+        "backOfficeTS": "Sistema de atendimento dos tickets (solicitações)"
     },
     "Curr":{
         "pt": "Currículo em português descrevendo experiências, formação acadêmica e conhecimentos.",

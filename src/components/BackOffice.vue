@@ -86,7 +86,6 @@ export default {
   },
   methods:{
     showGif(idx){
-      console.log(idx.index)
       this.titulo = this.telas[idx.index].title
       this.source = this.telas[idx.index].source
       this.alt = this.telas[idx.index].alt

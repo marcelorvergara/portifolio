@@ -6,17 +6,12 @@ export default {
         "prj": "Projects",
         "contatos": "Contacts",
         "curriculo": "Resume",
-
-        "profile": "Profile",
-        "login": "Login",
-        "logout": "Logout",
-        "terms and conditions": "Terms and conditions",
-        "follow us": "Follow us"
+        "memoria": "Memory Game"
     },
     "Carousel": {
         "github": "Project codes that I worked on and that I am currently working on",
         "linkedin": "My experiences, training and recommendations",
-        "email": "me@marcelo-vergara.codes"
+        "email": "me@mvergara.net"
     },
     "Err":{
         "errorMsg": "Something wrong that is not right"
@@ -53,6 +48,30 @@ export default {
         "exluirTit": "Remove News from the Portal",
         "exluirDesc": "There is the possibility to delete news on the portal. Being daily news like the news that are in the news history.",
         "exluirAlt": "Gif with demo to exclude from news"
+    },
+    "TelaMem": {
+        "desc": "Memory Game",
+        "descricao": "Game made in Python using the tkinter library for visual representation of graphic elements."
+    },
+    "TelaTS": {
+        "desc": "Ticket System (App)",
+        "descBo": "Ticket System (BO)",
+        "descBoSub": "Back office of the ticketing system made in Vue.js with Bootstrap. Created to meet the requests created in the app. Use of Vue Router, Vuex and Axios to consume REST Api.",
+        "titulo": "Ticket System for Pharmaceutical Company",
+        "subtitulo": "App developed in Android Studio with consumption of Api REST, SQLite, Firebase Cloud Messaging and MVVM architecture",
+        "criaSolicitacaoTit": "Ticket Creation",
+        "criaSolicitacaoDesc": "Creating two requests at the same time. Use of fragments so that the customer has the possibility to create more than one request on the same screen without having to enter and exit several screens.",
+        "criaSolicitacaoAlt": "Creating tickets",
+        "medicoSolicitanteTit": "Doctors",
+        "medicoSolicitanteDesc": "Doctor registration and selection of favorite doctors to facilitate the creation of requests. Functionality that uses SQLite for local storage of favorite doctors list.",
+        "medicoSolicitanteAlt": "Doctors",
+        "utilizaModeloTit": "Model Usage",
+        "utilizaModeloDesc": "Creation of a request using a template pre-registered by the administrators in the back office. Using cross-fragment navigation to streamline and speed up the request creation process.",
+        "utilizaModeloAlt": "Model usage",
+        "salvaEnviaTit": "Save and send",
+        "salvaEnviaDesc": "Functionality created so that, in case there is no internet available, the client can save requests locally (SQLite) for sending them later.",
+        "salvaEnviaAlt": "Save and send",
+        "backOfficeTS": "Ticket service system (requests)"
     },
     "Curr":{
         "cr": "Resume",
